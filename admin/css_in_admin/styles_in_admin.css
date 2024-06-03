@@ -1,0 +1,28 @@
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* căn giữa các phần tử theo chiều dọc */
+        }
+        .sidebar-header {
+            display: flex;
+            align-items: center;
+        }
+        .sidebar-header h2 {
+            margin: 0; /* loại bỏ khoảng cách dưới tiêu đề */
+        }
+        .sidebar-header {
+            display: flex;
+            align-items: center;
+        }
+        .sidebar-header img {
+            margin-right: 10px;
+            width: 40px; /* Adjust the size as needed */
+            height: 40px; /* Adjust the size as needed */
+        }
+        .sidebar-header a {
+            text-decoration: none;
+            color: black; /* Original color */
+        }
+        .sidebar-header a:hover {
+            color: blue; /* Hover color */
+        }
